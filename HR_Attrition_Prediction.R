@@ -1,6 +1,3 @@
-#Practice Project - HR Attrition Prediction Analysis
-#https://lms.simplilearn.com/courses/3813/PG-DS---Data-Science-with-R/syllabus
-
 library(readxl)
 library(plyr) #cleaning
 library(dplyr) 
@@ -18,8 +15,8 @@ library(randomForest)
 
 #Task 1: Load data 
 
-setwd("C:/OLD_LAPTOP/Gaurav/Purdue/4. Data Science with R/3. Practice_Projects/HR Attrition_Prediction_IBM")
-HR_data<- read_excel("C:/OLD_LAPTOP/Gaurav/Purdue/4. Data Science with R/3. Practice_Projects/HR Attrition_Prediction_IBM/HR_Attrition_IBM_Data.xlsx")
+setwd("C:/HR Attrition_Prediction")
+HR_data<- read_excel("C:/HR Attrition_Prediction/HR_Attrition_Data.xlsx")
 
 dim(HR_data)
 names(HR_data)
